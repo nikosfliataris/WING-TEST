@@ -1,0 +1,54 @@
+.header {
+  height: 50px;
+  box-shadow: 0 2px 4px 0 rgba(14, 14, 20, 0.1);
+  border-radius: 10px;
+  margin: 0 auto;
+  .wrap {
+    position: relative;
+    height: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    .name {
+      position: absolute;
+      left: 50px;
+      top: -10%;
+      transform: translateY(-50%);
+      width: 200px;
+      line-height: 0;
+    }
+    .material-symbols-outlined {
+      position: absolute;
+      right: 100px;
+      top: -10px;
+      width: 40px;
+      height: 30px;
+      border-radius: 5px;
+      color: black;
+      background-color: rgb(19, 78, 167);
+    }
+    .logout-btn {
+      position: absolute;
+      right: 0px;
+      top: -10px;
+      width: 70px;
+      height: 25px;
+      border-radius: 5px;
+      background-color: rgb(29, 17, 192);
+      color: white;
+    }
+    .registration {
+      position: absolute;
+      right: 180px;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+    .facilities {
+      position: absolute;
+      right: 220px;
+      text-decoration: none;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}
